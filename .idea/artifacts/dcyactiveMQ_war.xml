@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="dcyactiveMQ:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>dcyactiveMQ</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="activemq_demo.war">
+      <element id="artifact" artifact-name="dcyactiveMQ:war exploded" />
+    </root>
+  </artifact>
+</component>
